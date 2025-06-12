@@ -34,21 +34,24 @@ popx-landing/
 │   ├── components/
 │   │   ├── Landing.jsx
 │   │   ├── Signup.jsx
-│   │   ├── Login.jsx
-│   │   └── Profile.jsx
+│   │   ├── Profile.jsx
+│   │   └── Login.jsx
 │   │
 │   ├── styles/
 │   │   ├── Landing.css
 │   │   ├── Signup.css
-│   │   ├── Login.css
-│   │   └── Profile.css
+│   │   ├── Profile.css
+│   │   └── Login.css
 │   │
-│   ├── App.js
-│   └── index.js
+│   ├── index.js
+│   └── App.js
 │
 ├── package.json
 └── README.md
 
+
+
+---
 ###🚀 Getting Started
 1. Clone the Repository
 
