@@ -24,6 +24,7 @@ A pixel-perfect React.js application built from an Adobe XD design. It features 
     CSS
 
 ###📁 Project Structure
+
 popx-landing/
 │
 ├── public/
