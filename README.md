@@ -1,4 +1,4 @@
-📘 PopX Landing React App
+###📘 PopX Landing React App
 
 A pixel-perfect React.js application built from an Adobe XD design. It features seamless navigation between four essential screens: Landing, Signup, Login, and Profile. This app uses React, React Router DOM, and CSS for a smooth, responsive user experience — without Tailwind or external state management.
 📌 Features
@@ -15,7 +15,7 @@ A pixel-perfect React.js application built from an Adobe XD design. It features 
 
     🔹 No backend integration or global state library
 
-🛠️ Tech Stack
+###🛠️ Tech Stack
 
     React.js
 
@@ -23,8 +23,7 @@ A pixel-perfect React.js application built from an Adobe XD design. It features 
 
     CSS
 
-📁 Project Structure
-
+###📁 Project Structure
 popx-landing/
 │
 ├── public/
@@ -49,7 +48,7 @@ popx-landing/
 ├── package.json
 └── README.md
 
-🚀 Getting Started
+###🚀 Getting Started
 1. Clone the Repository
 
 git clone https://github.com/aliabrar21/Educase.git
@@ -69,7 +68,7 @@ npm start
 
 http://localhost:3000
 
-🔄 Page Navigation Flow
+###🔄 Page Navigation Flow
 From Page	Action	Navigates To
 / (Landing)	Click "Create Account"	/signup
 /signup	Submit form	/login
@@ -77,7 +76,7 @@ From Page	Action	Navigates To
 /profile	Static profile UI (read-only)	-
 🎨 Adobe XD Reference
 
-    This project replicates the UI design provided via Adobe XD for precision and styling consistency.
+    This project replicates the UI design provided via Adobe XD for precision and consistency in styling.
 
 📦 Installation Notes
 
