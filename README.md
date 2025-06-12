@@ -1,33 +1,30 @@
-## 📘 PopX Landing React App
+📘 PopX Landing React App
 
-A pixel-perfect React.js application based on an Adobe XD design, featuring smooth navigation between screens (Landing, Signup, Login, and Profile). Built using **React**, **CSS**, and **React Router DOM**.
+A pixel-perfect React.js application built from an Adobe XD design. It features seamless navigation between four essential screens: Landing, Signup, Login, and Profile. This app uses React, React Router DOM, and CSS for a smooth, responsive user experience — without Tailwind or external state management.
+📌 Features
 
----
+    🔹 Pixel-perfect responsive UI based on Adobe XD
 
-### 📌 Features
+    🔹 Smooth navigation between pages:
 
-- 🔹 Pixel-perfect responsive layout
-- 🔹 Navigation:
+        Landing → Signup → Login → Profile
 
-  - Signup → Login → Profile
+    🔹 Static Profile Page UI
 
-- 🔹 Static profile page UI based on design
-- 🔹 Clean CSS (no Tailwind used)
-- 🔹 No external state management or backend
+    🔹 Clean, maintainable CSS styling
 
----
+    🔹 No backend integration or global state library
 
-### 🛠️ Tech Stack
+🛠️ Tech Stack
 
-- **React.js**
-- **React Router DOM**
-- **CSS**
+    React.js
 
----
+    React Router DOM
 
-### 📁 Folder Structure
+    CSS
 
-```
+📁 Project Structure
+
 popx-landing/
 │
 ├── public/
@@ -37,86 +34,59 @@ popx-landing/
 │   ├── components/
 │   │   ├── Landing.jsx
 │   │   ├── Signup.jsx
-│   │   ├── Profile.jsx
-│   │   └── Login.jsx
+│   │   ├── Login.jsx
+│   │   └── Profile.jsx
 │   │
 │   ├── styles/
 │   │   ├── Landing.css
 │   │   ├── Signup.css
-│   │   ├── Profile.css
-│   │   └── Login.css
+│   │   ├── Login.css
+│   │   └── Profile.css
 │   │
-│   ├── index.js
-│   └── App.js
+│   ├── App.js
+│   └── index.js
 │
 ├── package.json
 └── README.md
-```
 
----
+🚀 Getting Started
+1. Clone the Repository
 
-### 🚀 How to Run the Project
+git clone https://github.com/aliabrar21/Educase.git
+cd popx-landing
 
-1. **Clone the repository:**
+    🔄 (Make sure the folder name matches your cloned repo if changed.)
 
-   ```bash
-   git clone https://github.com/aliabrar21/Educase.git
-   cd my-react-app
-   ```
+2. Install Dependencies
 
-2. **Install dependencies:**
+npm install
 
-   ```bash
-   npm install
-   ```
+3. Run the Development Server
 
-3. **Start the development server:**
+npm start
 
-   ```bash
-   npm start
-   ```
+4. Open in Browser
 
-4. **View in browser:**
+http://localhost:3000
 
-   ```
-   http://localhost:3000
-   ```
+🔄 Page Navigation Flow
+From Page	Action	Navigates To
+/ (Landing)	Click "Create Account"	/signup
+/signup	Submit form	/login
+/login	Submit form (dummy auth)	/profile
+/profile	Static profile UI (read-only)	-
+🎨 Adobe XD Reference
 
----
+    This project replicates the UI design provided via Adobe XD for precision and styling consistency.
 
-### 🔗 Page Flow
+📦 Installation Notes
 
-1. **Landing Page** (`/`)
-   → Click **Create Account** → navigates to `/signup`
-   → Click **Already Registered? Login** → navigates to `/login`
+Install required dependencies:
 
-2. **Signup Page** (`/signup`)
-   → On submit → navigates to `/login`
-
-3. **Login Page** (`/login`)
-   → On successful login → navigates to `/profile`
-
-4. **Profile Page** (`/profile`)
-   → Static design with Account Settings and user info
-
----
-
-### 📸 Adobe XD Design Reference
-
-Used reference screens from Adobe XD for pixel-perfect implementation.
-
----
-
-### 📦 Dependencies
-
-```bash
 npm install react-router-dom
-```
 
----
+👨‍💻 Author
 
-### 👨‍💻 Author
-
-**Gaurav Mehra**
+Gaurav Mehra
 Frontend Developer (React.js)
-Location: Delhi, India
+📍 Delhi, India
